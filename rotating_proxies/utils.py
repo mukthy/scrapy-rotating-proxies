@@ -25,8 +25,8 @@ def extract_proxy_hostport(proxy):
     'baz:1234'
     """
     if not proxy:
-        return print('No Proxy')
+        return 'No Proxy'
     else:
-        return print(_parse_proxy(proxy)[3])
+        return _parse_proxy(proxy)[3]
     #return _parse_proxy(proxy)[3]
     
